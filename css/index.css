@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 10px;
+    border: 3px solid salmon;
+    padding: 5px;
+}
+
+img {
+    border: 1px solid black;
+    width: 300px;
+}
+
+.chosen {
+    border-color: red;
+}
+
+#chosen {
+    border-color: yellow;
+}
+
+article p:hover {
+    text-decoration: underline;
+}
+
+article p::first-letter {
+    font-size: 3rem;
+}
+
+.menu a{
+    display: block;
+}
+
+.menu{
+    display:flex ;
+    justify-content: space-around;
+}
